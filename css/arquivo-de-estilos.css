@@ -1,37 +1,43 @@
 body {
     background-color: white;
     color: black;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 5% 10% 5% 10%;
     font-family: "Arial", sans-serif;
     font-size: 14px;
 }
+
 h1 {
     color: limegreen;
     font-family: "Times New Roman", serif;
     font-size: 28px;
     text-align: left;
 }
-p {
-    text-align: justify;
-}
+
 h2 {
     color: limegreen;
     font-family:  "Times New Roman", serif;
     font-size: 22px;
 }
+
+p {
+    text-align: justify;
+}
+
 blockquote {
     margin-left: 60px;
     margin-right: 0px;
     text-align: justify;
+    font-style: italic;
 }
-#paragrafo-especial{
-    border-style: solid;
-    border-color: limegreen;
-    border-width: 3px;
-    background-image: url(../imagens/fundo.png);
-    border-spacing: 10px;
+
+q {
+    font-style: italic;
 }
+
+.termo-em-latim {
+    font-style: italic;
+}
+
 img {
     border-color: limegreen;
     border-collapse: 8px;
