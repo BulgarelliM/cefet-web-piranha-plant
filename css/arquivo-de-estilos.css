@@ -1,0 +1,43 @@
+body {
+    background-color: white;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+}
+h1 {
+    color: limegreen;
+    font-family: "Times New Roman", serif;
+    font-size: 28px;
+    text-align: left;
+}
+p {
+    text-align: justify;
+}
+h2 {
+    color: limegreen;
+    font-family:  "Times New Roman", serif;
+    font-size: 22px;
+}
+blockquote {
+    margin-left: 60px;
+    margin-right: 0px;
+    text-align: justify;
+}
+#paragrafo-especial{
+    border-style: solid;
+    border-color: limegreen;
+    border-width: 3px;
+    background-image: url(../imagens/fundo.png);
+    border-spacing: 10px;
+}
+img {
+    border-color: limegreen;
+    border-collapse: 8px;
+    border-style: solid;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
